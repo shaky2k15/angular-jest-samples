@@ -11,7 +11,7 @@ test("Another custom matcher", () => {
     const moment1 = moment().utc();
     const moment2 = moment();
 
-    expect(moment1).toBeSameMoment(moment2);
+    expect(moment1).not.toBeSameMoment(moment2);
   });
 
   test("even and odd numbers", () => {
