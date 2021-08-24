@@ -1,0 +1,32 @@
+{
+  "name": "jest-training",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "json",
+      "html"
+    ]
+  },
+  "dependencies": {
+    "@types/node": "^16.7.1",
+    "@types/node-fetch": "^2.5.12",
+    "axios": "^0.21.1",
+    "jest-html-reporters": "^2.1.6",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.1",
+    "thunkify": "^2.1.2",
+    "ts-node": "^10.2.1"
+  }
+}
